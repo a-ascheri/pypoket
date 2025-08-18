@@ -1,0 +1,16 @@
+:root{
+  --bg:#0f172a; --card:#0b2545; --accent:#f97316; --text:#e6eef8;
+}
+body{font-family:Inter,ui-sans-serif,system-ui,Arial;background:linear-gradient(180deg,#071129 0%, #0b1f38 100%);color:var(--text);min-height:100vh;padding:24px}
+.container{max-width:720px;margin:0 auto}
+h1{margin-bottom:12px}
+.search-form{display:flex;gap:8px;margin-bottom:12px}
+.search-input{flex:1;padding:8px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:#031026;color:var(--text)}
+.search-button{padding:8px 12px;border-radius:6px;border:none;background:var(--accent);color:#000;font-weight:600}
+.error{color:#ff7b7b}
+.card{background:rgba(255,255,255,0.03);padding:16px;border-radius:8px;display:flex;gap:16px;align-items:center}
+.sprite{width:96px;height:96px}
+.name{text-transform:capitalize}
+.types{display:flex;gap:8px}
+.type{padding:4px 8px;border-radius:999px;background:rgba(255,255,255,0.06);text-transform:capitalize}
+.stat{font-size:14px}
