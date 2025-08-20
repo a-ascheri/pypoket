@@ -42,6 +42,7 @@ docker-compose up --build
 ```
 
 ## Funcionalidad
+- Buscar Pokémon por ID.
 - Buscar Pokémon por nombre.
 - Muestra imagen, tipos y stats principales.
 - Manejo de errores si el Pokémon no existe.
