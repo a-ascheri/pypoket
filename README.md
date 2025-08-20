@@ -47,6 +47,7 @@ docker-compose up --build
 - Muestra imagen, tipos y stats principales.
 - Manejo de errores si el Pokémon no existe.
 - Cache simple en backend para evitar consultas repetidas.
+- 
 
 ## Demo
 ![demo](https://raw.githubusercontent.com/a-ascheri/pypoket/main/demo.png)
